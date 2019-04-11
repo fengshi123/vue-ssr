@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@mixin menu-icon($logo-img) {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url($logo-img) no-repeat;
+}
+
+.com-menuContainer {
+  &__btn-account-manage {
+    @include menu-icon($logo-home);
+  }
+
+  &__btn-homework-manage {
+    @include menu-icon($logo-work);
+  }
+
+  &__btn-system-setting {
+    @include menu-icon($logo-system);
+  }
+
+  &__submenu-icon {
+    float: left !important;
+    height: 30px !important;
+    margin-top: 2px !important;
+    list-style: circle inside !important;
+    padding-left: 20px !important;
+  }
+}
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import "./mixins/_admin-head.scss";
+
+@include admin-head(admin-head);
+
+.admin-head {
+  &__setting {
+    float: right;
+    padding: 0 20px 0 10px;
+    border-left: 1px solid #e8e8e8;
+    cursor: pointer;
+
+    & > a {
+      display: block;
+      color: #666;
+    }
+  }
+
+  &__img {
+    margin: 15px 5px 0 0;
+    float: left;
+  }
+
+  &__password {
+    cursor: pointer;
+    float: right;
+    color: #666;
+    padding: 0 20px 0 10px;
+    border-left: 1px solid #e8e8e8;
+  }
+
+  &__wel{
+    float: right;
+  }
+}

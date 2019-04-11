@@ -1,0 +1,9 @@
+@import "./mixins/_admin-top.scss";
+@include admin-top(admin-usermg);
+.analysis {
+  &__layout {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}

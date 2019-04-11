@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@mixin admin-head($class) {
+  .#{$class} {
+    &__top {
+      position: fixed;
+      height: 50px;
+      line-height: 50px;
+      background: #fff;
+      width: 100%;
+      color: #666;
+      font-size: 12px;
+      z-index: 99;
+    }
+
+    &__wel {
+      float: right;
+      padding: 0 20px 0 10px;
+    }
+  }
+}

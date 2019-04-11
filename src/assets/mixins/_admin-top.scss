@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@mixin admin-top($class) {
+  .#{$class} {
+    font-size: 12px;
+    color: #333;
+
+
+    &__top {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 10px;
+      font-size: 18px;
+      color: #000;
+      border-bottom: 1px solid #b8cee0;
+    }
+
+    &__button {
+      margin: 5px;
+      .adminPage{
+        display:inline-block;
+        float:right;
+        margin: -6px;
+      }
+    }
+
+    &__pagi {
+      float: right;
+    }
+
+    &__expand {
+      border: 0 !important;
+    }
+  }
+
+  .el-pagination__editor {
+    margin-top: 0 !important;
+    height: 28px;
+    width: 28px;
+  }
+}
+
+.el-table {
+  font-size: 12px !important;
+}

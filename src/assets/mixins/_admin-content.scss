@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@mixin admin-content($class) {
+  .#{$class} {
+    &__top {
+      padding-top: 50px;
+      margin-left: 200px;
+      z-index: 70;
+      min-width: 760px;
+    }
+
+    &__middle {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      background-color: #ebf0f5;
+    }
+
+    &__inside {
+      height: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
