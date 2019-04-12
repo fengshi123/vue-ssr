@@ -3,7 +3,9 @@
 HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
 
 <p align="center">
-   <img src="https://github.com/fengshi123/vue-ssr/blob/master/public/logo-48.png" width="700px">
+   <img src="https://github.com/fengshi123/vue-ssr/blob/master/public/demo1.png" width="700px">
+   <img src="https://github.com/fengshi123/vue-ssr/blob/master/public/demo2.png" width="700px">
+   <img src="https://github.com/fengshi123/vue-ssr/blob/master/public/demo3.png" width="700px">
 </p>
 
 ## 特点
