@@ -45,14 +45,13 @@ module.exports = {
           name: '[name].[ext]?[hash]'
         }
       },
-      {
-        test: /\.css$/,
-        loader: ["vue-style-loader", "css-loader"]
-        // loader: 'style-loader!css-loader'
-      },
       { //下面这段是vue2.0需要的scss配置
         test: /\.scss$/,
         loaders: ["vue-style-loader","css-loader", "sass-loader"]
+      },
+      {
+        test: /\.css$/,
+        loader: ["vue-style-loader", "css-loader"]
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,

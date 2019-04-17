@@ -7,8 +7,8 @@ const compression = require('compression')
 const microcache = require('route-cache')
 const resolve = file => path.resolve(__dirname, file)
 const { createBundleRenderer } = require('vue-server-renderer')
-const { generateImage } = require('./canvas-echart.js')
-var serverData = require('./server-data.js');
+const { generateImage } = require('./server/canvas-echart.js')
+var serverData = require('./server/server-data.js');
 
 // process.env.NODE_ENV 为 undefined
 const isProd = process.env.NODE_ENV === 'production'
@@ -66,7 +66,7 @@ const serve = (path, cache) => express.static(resolve(path), {
 })
 
 app.use(compression({ threshold: 0 }))
-app.use(favicon('./public/logo-48.png'))
+app.use(favicon('./public/favicon.png'))
 app.use('/dist', serve('./dist', true))
 app.use('/public', serve('./public', true))
 app.use('/manifest.json', serve('./manifest.json', true))

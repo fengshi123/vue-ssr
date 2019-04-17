@@ -54,7 +54,7 @@ module.exports.option1 = {
         data:['数量']
     },
     xAxis: {
-        data: ['comedy','action','warfare','love','record','terror']
+        data: ['喜剧','动作','战争','爱情','记录','恐怖']
     },
     yAxis: {},
     series: [{
@@ -86,7 +86,7 @@ module.exports.option2 = {
             radius : '55%',
             center: ['50%', '60%'],
             data:[
-                {value:5, name:'comedy'},
+                {value:5, name:'喜剧'},
                 {value:20, name:'动作'},
                 {value:36, name:'战争'},
                 {value:10, name:'爱情'},
