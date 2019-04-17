@@ -1,6 +1,6 @@
 # vue-hackernews-2.0
 
-HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
+This instance built with Vue 2.0 + vue-router + vuex + element-ui + echart.js, with server-side rendering.
 
 <p align="center">
    <img src="https://github.com/fengshi123/vue-ssr/blob/master/public/demo1.png" width="1000px">
