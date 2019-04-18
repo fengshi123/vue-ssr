@@ -1,4 +1,4 @@
-# vue-hackernews-2.0
+# vue-ssr
 
 This instance built with Vue 2.0 + vue-router + vuex + element-ui + echart.js, with server-side rendering.
 
